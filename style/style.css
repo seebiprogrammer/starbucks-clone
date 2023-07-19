@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+.tophead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+}
+.logo img {
+  height: 50px;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+}
+.nav-bar ul li {
+  display: inline-block;
+}
+
+.nav-bar ul li a {
+  color: #2c3333;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  transition: 0.5s ease;
+}
+
+.nav-bar ul li a:hover {
+  color: #016241;
+}
+
+.main-head {
+  position: relative;
+  padding: 50px 80px;
+  display: flex;
+  height: 520px;
+}
+
+.main-head .text {
+  flex: 8;
+}
+
+.main-head .title {
+  color: #2c3333;
+  font-size: 50px;
+  line-height: 80px;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.main-head .title span {
+  color: #016241;
+  font-size: 80px;
+}
+
+.main-head p {
+  color: #2c3333;
+  width: 580px;
+  margin-top: 50px;
+}
+.main-head .main-btn {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 5px 30px;
+  border-style: none;
+  background: #016241;
+  color: #fff;
+  margin-top: 20px;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.bg-shape img {
+  height: 370px;
+}
+.bgg-shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #016241;
+  height: 100%;
+  width: 100%;
+  clip-path: circle(600px at right 800px);
+}
+
+.thumbnails {
+  position: absolute;
+  top: 80%;
+  left: 40%;
+}
+
+.thumbnails img {
+  height: 80px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.thumbnails img:hover {
+  transform: translateY(-10%);
+}
+
+.social-icons {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-icons i {
+  font-size: 28px;
+  margin-top: 30px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.social-icons i:hover {
+  transform: translateX(-20%);
+}
